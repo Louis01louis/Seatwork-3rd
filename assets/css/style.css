@@ -3,73 +3,25 @@ body {
 	font-family: sans-serif, fantasy;
 	background-color: rgb(176, 218, 255);
 }
-#name {
-	text-align: center;
-}
-#bw {
-	margin-left: 5px;
-    margin-right: 5px;
-}
-#ab {
-	text-align: center;
-}
-#abt {
-	
-}
 
-img {
-	display: block;
-	border-radius: 10px;
-	margin-left: auto;
-	margin-right: auto;
-}
-.pic {
-	background-color: rgb(74, 193, 248);
-	position: absolute;
-	top: 7px;
-	left: 100px;
-	border-radius: 10px;
-	width: 700px;
-	height: 900px;
-    margin-left: 5px;
-    margin-right: auto;
-}
-.me {
-	background-color: #6494ce;
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	border-radius: 10px;
-	width: 500px;
-	height: 300px;
-	margin-left: auto;
-	margin-right: auto;
-}
 .interact {
 	background-color: rgb(74, 193, 248);
 	align-items: center;
 	border-radius: 10px;
-	width: 700px;
+	width: 1500px;
 	height: 900px;
     position:absolute;
 	top: 7px;
-	right: 100px;
+	
 	display: flex;
 	flex-direction: column;
-
-}
-.words {
-	background-color: #6494ce;
-	border-radius: 20px;
-	position: absolute;
-	top: 200px;
-	width: 600px;
-	height: 300px;
-	text-align: justify;
 }
 .btn {
 	position: absolute;
 	align-items: center;
 	display: flex;
 	justify-content: center;
+	
 	top: 400px;
 	width: 100px;
 	height: 300px;
