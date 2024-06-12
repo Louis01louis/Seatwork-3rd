@@ -1,0 +1,11 @@
+.First_Design {
+    padding: 20px;
+    background: #1abc9c;
+    color: white;
+    }
+
+.imgL {
+    position: absolute;
+	top: 150px;
+	left: 120px;
+}
