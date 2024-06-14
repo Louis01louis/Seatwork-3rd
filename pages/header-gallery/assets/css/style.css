@@ -1,11 +1,268 @@
+a:link {
+    text-decoration: none;
+  }
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
 .First_Design {
     padding: 20px;
     background: #1abc9c;
-    color: white;
     }
+.imgL1 {
+    display: flex;
+    justify-content: left;
+}
+.Design_1 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
 
-.imgL {
+
+.Second_Design {
+    padding: 20px;
+    background: #1a8ebc;
+    }
+.imgL2 {
+    display: flex;
+    justify-content: right;
+}
+.Design_2 {
+    display: flex;
+    justify-content: flex;
+    gap: 10px;
+}
+
+
+.Third_Design {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: #1a53bc;
+    height: 100px;
+    }
+.imgL3 {
+    width: 200px;
     position: absolute;
-	top: 150px;
-	left: 120px;
+    left: 50px;
+}
+.Design_3 {
+    background-color: #1a8ebc;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.Fourth_Design {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #601abc;
+    height: 100px;
+    }
+.imgL4 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_4 {
+    background-color: #c361db;
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.shop-button {
+    position: absolute;
+    right: 50px;
+}
+
+
+.Fifth_Design {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #a62edd;
+    height: 100px;
+    }
+.imgL5 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_5 {
+    background-color: #de97ff;
+    width: 600px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.nav5_btn {
+    background-color: #a62edd;
+    border-radius: 10px;
+}
+.shop2-button {
+    position: absolute;
+    right: 260px;
+}
+.srch-button {
+    position: absolute;
+    right: 40px;
+}
+
+
+
+
+
+
+
+.Design_First {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #601abc;
+    height: 100px;
+    }
+.imgL11 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_11 {
+    background-color: #c361db;
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.nav11_btn:hover{
+    background-color: white;
+    border-radius: 20px;
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+}
+.shopp-button {
+    position: absolute;
+    right: 50px;
+}
+.shopp-button:hover {
+    background-color: white;
+    border-radius: 100%;
+    transition: all 1s ease-in-out;
+    transform: rotate(360deg);
+}
+
+
+.Design_Second {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+    background: #1a53bc;
+    height: 100px;
+    }
+.imgL22 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_22 {
+    background-color: #1a8ebc;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+}
+.nav22_btn:hover {
+    background-color: white;
+    animation-name: bounce;
+    animation-duration: 0.5s;
+}
+@keyframes bounce {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-15px);
+    }
+}
+
+
+.Design_Third {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #a62edd;
+    height: 100px;
+    }
+.imgL33 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_33 {
+    background-color: #de97ff;
+    width: 600px;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.nav33_btn {
+    background-color: #a62edd;
+    border-radius: 10px;
+}
+.shop33-button {
+    position: absolute;
+    right: 260px;
+}
+.srch33-button {
+    position: absolute;
+    right: 40px;
+}
+.nav33_btn:hover {
+    background-color: #c76ff3;
+    transition: all 0.7s ease-in-out;
+    transform-origin: center;
+    scale: 1.5 1.5;
+}
+.shop33-button:hover {
+    transition: all 0.7s ease-in-out;
+    transform-origin: center;
+    scale: 1.5 1.5;
+}
+.srch33-button:hover {
+    transition: all 0.7s ease-in-out;
+    transform-origin: center;
+    scale: 1.5 1.5;
 }

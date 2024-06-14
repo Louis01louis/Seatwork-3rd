@@ -1,0 +1,132 @@
+a:link {
+    text-decoration: none;
+  }
+.First_Design {
+    padding: 20px;
+    background: #89ebd7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+.imgL1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 30px;
+}
+.Design_1 {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+
+.Second_Design {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #7aecb7;
+    height: 200px;
+    }
+.imgL2 {
+    position: absolute;
+    left: 50px;
+}
+.Design_2 {
+    background-color: #c6f7e0;
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.social-button {
+    position: absolute;
+    right: 50px;
+}
+
+
+.Third_Design {
+    padding: 20px;
+    background: #1a8ebc;
+    }
+.imgL3 {
+    position: absolute;
+    right: 50px;
+}
+.Design_3 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.nav3_btn {
+    font-size: 30px;
+}
+.sub-design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Fourth_Design {
+    padding: 20px;
+    background: #1a8ebc;
+    }
+.imgL4 {
+    position: absolute;
+    left: 50px;
+}
+.imglogo {
+    position: absolute;
+    left: 37%;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.Design_4 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 50px;
+}
+.nav4_btn {
+    font-size: 30px;
+}
+.sub-design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.Fifth_Design {
+    padding: 20px;
+    background: #1a8ebc;
+    }
+.imgL5 {
+    position: absolute;
+    left: 50px;
+}
+.imglogo5 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+.Design_5 {
+    display: flex;
+    justify-content: flex-end;
+    gap: 60px;
+}
+.nav5_btn {
+    font-size: 30px;
+}
+.sub-design {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
