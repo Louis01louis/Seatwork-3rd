@@ -6,7 +6,7 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/L_3D" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/L_3D.png" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
   <h3 align="center">Seatwork 3: Headers and Footers Display Website</h3>
@@ -61,7 +61,7 @@ This is about creating a homepage that can go to a header page and a footer page
 
 Each page has five static designs and animated designs.
 
-These were only limeted to using the HTML and CSS language.
+These were only limited to using the HTML and CSS language.
 
 
 ### Key Components
