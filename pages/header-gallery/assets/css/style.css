@@ -293,19 +293,111 @@ h1 {
     gap: 10px;
     align-items: center;
 }
-.nav44_btn:hover{
-    background-color: white;
-    border-radius: 20px;
-    transition: all 1s ease-in-out;
-    transform: rotate(360deg);
+.nav44_btn{
+    color: transparent;
+    -webkit-text-stroke: 3px darkmagenta;
+    position: relative;
 }
-.shopp4-button {
+
+.nav44_btn::before{
+    content:"Home";
+    position: absolute;
+    width: 0%;
+    height: 100%;
+    overflow: hidden;
+    color: darkmagenta;
+    border-right: 8px solid darkmagenta;
+    transition: 1s ease-in-out;
+}
+
+.nav44_btn:hover::before{
+    width: 100%;
+    filter: drop(0 0 25px darkmagenta);
+}
+
+
+.Design_Fifth {
+    font-family: system-ui;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background: #601abc;
+    height: 100px;
+    }
+.imgL55 {
+    width: 200px;
+    position: absolute;
+    left: 50px;
+}
+.Design_55 {
+    background-color: #c361db;
+    border-radius: 20px;
+    width: 600px;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    gap: 10px;
+    align-items: center;
+}
+.nav55_btn:hover{
+    transition: idk 1s ease-in-out;
+
+    animation-name: idk;
+    animation-duration: 4s;
+}
+
+@keyframes idk{
+    0%{
+        transform-origin: center;
+        transform: rotate(0deg)
+    }
+    25%{
+        transform-origin: center;
+        transform: rotate(180deg);
+    }
+    50%{
+        transform-origin: bottom left;
+        transform: rotate(360deg);
+    }
+    75%{
+
+        transform: translateX(720deg);
+    }
+    100%{
+        transform: translateX(1440deg);
+    }
+}
+.shopp5-button {
     position: absolute;
     right: 50px;
 }
-.shopp4-button:hover {
-    background-color: white;
-    border-radius: 100%;
-    transition: all 1s ease-in-out;
-    transform: rotate(360deg);
+.shopp5-button:hover {
+    transition: idk 1s ease-in-out;
+
+    animation-name: idk;
+    animation-duration: 4s;
+}
+
+@keyframes idk{
+    0%{
+        transform-origin: center;
+        transform: rotate(0deg)
+    }
+    25%{
+        transform-origin: center;
+        transform: rotate(180deg);
+    }
+    50%{
+        transform-origin: bottom left;
+        transform: rotate(360deg);
+    }
+    75%{
+
+        transform: translateX(720deg);
+    }
+    100%{
+        transform: translateX(1440deg);
+    }
 }
