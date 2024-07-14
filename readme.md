@@ -6,14 +6,14 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/nyebe_white.png" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/L_3D.png" alt="Logo" width="130" height="100">
   </a>
 <!-- TODO: Change Title to the name of the title of your Project -->
-  <h3 align="center">Title</h3>
+  <h3 align="center">Seatwork 3: Headers and Footers Display Website</h3>
 </div>
 <!-- TODO: Make a short description -->
 <div align="center">
-  Short Description. (Optional)
+  This is about showcasing how I can make different kinds of headers and footers
 </div>
 
 <br />
@@ -57,13 +57,12 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+This is about creating a homepage that can go to a header page and a footer page.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+Each page has five static designs and animated designs.
+
+These were only limited to using the HTML and CSS language.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
@@ -117,4 +116,4 @@ WD-ProjectName
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | HTML basics and picture formating |              www.w3schools.com              |
+| Sample Title | HTML and CSS basics and picture formating |              www.w3schools.com              |
